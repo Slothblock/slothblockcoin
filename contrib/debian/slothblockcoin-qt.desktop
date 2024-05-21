@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=SlothBlockCoin Core
+Comment=Connect to the SlothBlockCoin P2P Network
+Comment[de]=Verbinde mit dem SlothBlockCoin peer-to-peer Netzwerk
+Comment[fr]=SlothBlockCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SlothBlockCoin, eşten eşe kriptografik sanal para birimi
+Exec=slothblockcoin-qt %u
+Terminal=false
+Type=Application
+Icon=slothblockcoin128
+MimeType=x-scheme-handler/slothblockcoin;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/slothblockcoin-qt usr/bin
+share/pixmaps/slothblockcoin32.xpm usr/share/pixmaps
+share/pixmaps/slothblockcoin16.xpm usr/share/pixmaps
+share/pixmaps/slothblockcoin128.png usr/share/pixmaps
+debian/slothblockcoin-qt.desktop usr/share/applications
+debian/slothblockcoin-qt.protocol usr/share/kde4/services/

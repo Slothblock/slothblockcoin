@@ -1,0 +1,2 @@
+usr/local/bin/slothblockcoind usr/bin
+usr/local/bin/slothblockcoin-cli usr/bin

@@ -116,4 +116,4 @@ There are likely more mining software options out there that could work with Slo
 
 Solo mining SlothBlockCoin can be a rewarding experience, especially as the community grows. By following this guide, you should be able to set up your mining environment and start contributing to the SlothBlockCoin network. Happy mining!
 
-For more information, visit our [website](http://slothblock.com) or join our [community](#communities-🚀🍾).
+For more information, visit our [website](http://slothblock.com) or join our [subreddit](https://www.reddit.com/r/slothblock/).

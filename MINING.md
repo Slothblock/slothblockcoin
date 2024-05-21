@@ -21,9 +21,9 @@ Before you start mining, ensure you have the following:
 
 2. **Extract the Files**: Extract the downloaded ZIP file to a location of your choice.
 
-3. **Launch the Wallet**: Open the `bin` folder and double-click `qt-slothblockcoin.exe` to launch the wallet. This will start your SlothBlockCoin node.
+3. **Launch the Wallet**: Open the `bin` folder and double-click `slothblockcoin-qt.exe` to launch the wallet. This will start your SlothBlockCoin node.
 
-**Note**: The wallet and the daemon (`slothblockcoind.exe`) both launch a node. For most users, using the wallet (`qt-slothblockcoin.exe`) is recommended. You cannot use both at the same time.
+**Note**: The wallet and the daemon (`slothblockcoind.exe`) both launch a node. For most users, using the wallet (`slothblockcoin-qt.exe`) is recommended. You cannot use both at the same time.
 
 #### Step 2: Configure Your Wallet
 

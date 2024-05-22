@@ -93,7 +93,7 @@ Here are some places to visit:
 ## Frequently Asked Questions ❓
 
 Do you have a question regarding SlothBlockCoin? An answer is perhaps already in the
-[FAQ](doc/FAQ.md) or the
+[Whitepaper](https://www.slothblock.com/brilliant-blueprint) or the
 [Q&A section](https://github.com/Slothblock/slothblockcoin/discussions/categories/q-a)
 of the discussion board!
 

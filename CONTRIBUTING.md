@@ -102,10 +102,10 @@ in the future, they may be removed.
 
 ### Refactoring
 
-SlothBlockCoin Core is a direct fork of Bitcoin Core and therefore benefits from as
+SlothBlockCoin Core is a direct fork of Dogecoin Core and therefore benefits from as
 little refactoring as possible on code that is created upstream. If you see any
 structural issues with upstream code, please propose these fixes for
-[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) and future SlothBlockCoin Core
+[dogecoin/dogecoin](https://github.com/dogecoin/dogecoin) and future SlothBlockCoin Core
 releases will automatically benefit from these.
 
 When refactoring SlothBlockCoin-specific code, please keep refactoring requests short,

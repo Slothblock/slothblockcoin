@@ -86,8 +86,6 @@ about SlothBlockCoin, give or ask for help, to share your project.
 Here are some places to visit:
 
 * [SlothBlockCoin subreddit](https://www.reddit.com/r/slothblock/)
-
-* [Discord](https://discord.gg/slothblockcoin)
 * [SlothBlockCoin Twitter](https://twitter.com/SlothBlockCoin)
 
 ## Frequently Asked Questions ❓

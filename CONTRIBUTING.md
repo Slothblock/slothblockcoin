@@ -6,7 +6,7 @@ or look for work that needs doing, please see:
 
 * [Help requests](https://github.com/slothblockcoin/slothblockcoin/labels/help%20wanted)
 * [Projects](https://github.com/slothblockcoin/slothblockcoin/projects)
-* [SlothBlockCoindev on reddit](https://www.reddit.com/r/slothblockcoindev/)
+* [SlothBlock on reddit](https://www.reddit.com/r/slothblock/)
 
 ## Branch Strategy
 

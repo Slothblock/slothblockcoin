@@ -91,9 +91,7 @@ Here are some places to visit:
 ## Frequently Asked Questions ❓
 
 Do you have a question regarding SlothBlockCoin? An answer is perhaps already in the
-[Whitepaper](https://www.slothblock.com/brilliant-blueprint) or the
-[Q&A section](https://github.com/Slothblock/slothblockcoin/discussions/categories/q-a)
-of the discussion board!
+[Whitepaper](https://www.slothblock.com/brilliant-blueprint).
 
 ## License ⚖️
 SlothBlockCoin Core is released under the terms of the MIT license. See

@@ -83,7 +83,7 @@ public:
         consensus.nMajorityWindow = 2000;
         // BIP34 is never enforced in SlothBlockCoin v2 blocks, so we enforce from v3
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72");
+        consensus.BIP34Hash = uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2");
         consensus.BIP65Height = 0; 
         consensus.BIP66Height = 0; 
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
@@ -115,7 +115,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00"); 
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"); // 0
+        consensus.defaultAssumeValid = uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"); // 0
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x01FE; // 510 - SLO(TH)!
@@ -146,19 +146,19 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xd5;
-        pchMessageStart[1] = 0x25;
-        pchMessageStart[2] = 0xe3;
-        pchMessageStart[3] = 0x22;
+        pchMessageStart[0] = 0xf3;
+        pchMessageStart[1] = 0xb6;
+        pchMessageStart[2] = 0x40;
+        pchMessageStart[3] = 0x81;
         nDefaultPort = 44346;
         nPruneAfterHeight = 525960;
 
-        genesis = CreateGenesisBlock(1714340525, 737211, 0x1e0ffff0, 1, 20000 * COIN);
+        genesis = CreateGenesisBlock(1714340525, 781535, 0x1e0ffff0, 1, 20000 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"));
+        assert(consensus.hashGenesisBlock == uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"));
         assert(genesis.hashMerkleRoot == uint256S("0x45f0583b2f8cf02ad2264b9dba3e3c14758878904c0516a677939841883fe9a3"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
@@ -182,7 +182,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (      0, uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"))
+            (      0, uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"))
             //( 104679, uint256S("0x35eb87ae90d44b98898fec8c39577b76cb1eb08e1261cfc10706c8ce9a1d01cf"))
             //( 145000, uint256S("0xcc47cae70d7c5c92828d3214a266331dde59087d4a39071fa76ddfff9b7bde72"))
             //( 371337, uint256S("0x60323982f9c5ff1b5a954eac9dc1269352835f47c2c5222691d80f0d50dcf053"))
@@ -245,7 +245,7 @@ public:
         consensus.nMajorityWindow = 1000;
         // BIP34 is never enforced in SlothBlockCoin v2 blocks, so we enforce from v3
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72");
+        consensus.BIP34Hash = uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2");
         consensus.BIP65Height = 0; 
         consensus.BIP66Height = 0; 
         consensus.powLimit = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20;
@@ -273,7 +273,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00"); // 0
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"); // 0
+        consensus.defaultAssumeValid = uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"); // 0
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x01FE; // 510 - SLO(TH)!
@@ -315,12 +315,12 @@ public:
         nDefaultPort = 17264;
         nPruneAfterHeight = 1000;
  
-        genesis = CreateGenesisBlock(1714340525, 737211, 0x1e0ffff0, 1, 20000 * COIN);
+        genesis = CreateGenesisBlock(1714340525, 781535, 0x1e0ffff0, 1, 20000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         digishieldConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         auxpowConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-        assert(consensus.hashGenesisBlock == uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"));
+        assert(consensus.hashGenesisBlock == uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"));
         assert(genesis.hashMerkleRoot == uint256S("0x45f0583b2f8cf02ad2264b9dba3e3c14758878904c0516a677939841883fe9a3"));
 
         vSeeds.clear();
@@ -342,7 +342,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x8bb28063fe701d488e01e38ef76bda773a494e21b45a739e7acfe82abd65cb72"))
+            ( 0, uint256S("0xd9908e4137682c139ae6a544b8cbeffb2b6fe4a1d83f2da3a974d811036b23f2"))
             // ( 483173, uint256S("0xa804201ca0aceb7e937ef7a3c613a9b7589245b10cc095148c4ce4965b0b73b5"))
             // ( 591117, uint256S("0x5f6b93b2c28cedf32467d900369b8be6700f0649388a7dbfd3ebd4a01b1ffad8"))
             // ( 658924, uint256S("0xed6c8324d9a77195ee080f225a0fca6346495e08ded99bcda47a8eea5a8a620b"))
